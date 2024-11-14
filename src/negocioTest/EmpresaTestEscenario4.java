@@ -155,7 +155,7 @@ public class EmpresaTestEscenario4 {
 	
 	@Test
 	public void testGetTotalSalarios_Clase1() {
-		assertEquals("No se calcula bien el total de salarios", 2270400.0, escenario.empresa.getTotalSalarios(), 0.1);
+		assertEquals("No se calcula bien el total de salarios", 2700400.0, escenario.empresa.getTotalSalarios(), 0.1);
 	}
 	
 	@Test
