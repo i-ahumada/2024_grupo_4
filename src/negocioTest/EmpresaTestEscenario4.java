@@ -153,7 +153,6 @@ public class EmpresaTestEscenario4 {
 	}
 	
 	
-	// Despues lo calculo me tengo que ir al medico :(
 	@Test
 	public void testGetTotalSalarios_Clase1() {
 		assertEquals("No se calcula bien el total de salarios", 9.0, escenario.empresa.getTotalSalarios(), 0.1);
